@@ -2,8 +2,8 @@
 //  main.m
 //  scrollTab
 //
-//  Created by HamGuy on 2020/8/10.
-//  Copyright © 2020 Wedian. All rights reserved.
+//  Created by apple on 2020/8/10.
+//  Copyright © 2020 apple. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

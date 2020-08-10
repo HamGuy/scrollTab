@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIColor+Random.h
 //  scrollTab
 //
 //  Created by apple on 2020/8/10.
@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property(nonatomic, strong) IBOutlet UIWindow* window;
+@interface UIColor (Random)
 
++(UIColor *)random;
 
 @end
 
+NS_ASSUME_NONNULL_END
