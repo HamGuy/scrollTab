@@ -151,7 +151,7 @@ static NSString *JXPagerSmoothViewCollectionViewCellIdentifier = @"cell";
             listScrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
         listScrollView.contentInset = UIEdgeInsetsMake(self.heightForPagerHeaderContainerView, 0, 0, 0);
-        self.currentListInitializeContentOffsetY = -390;//-listScrollView.contentInset.top + MIN(-self.currentPagerHeaderContainerViewY, self.heightForPagerHeader);
+        self.currentListInitializeContentOffsetY = -listScrollView.contentInset.top + MIN(-self.currentPagerHeaderContainerViewY, self.heightForPagerHeader);
         listScrollView.contentOffset = CGPointMake(0, self.currentListInitializeContentOffsetY);
         UIView *listHeader = [[UIView alloc] initWithFrame:CGRectMake(0, -self.heightForPagerHeaderContainerView, self.bounds.size.width, self.heightForPagerHeaderContainerView)];
         listHeader.backgroundColor = UIColor.yellowColor;
