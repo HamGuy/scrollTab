@@ -14,5 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIView *pagerHeaderContainerView;
 @end
 
+@interface JXPagerSmoothCollectionFlowLayout : UICollectionViewFlowLayout
+@property (nonatomic, assign) CGFloat pinCategoryHeight;    //悬浮header的高度
+@end
+
+
 
 NS_ASSUME_NONNULL_END

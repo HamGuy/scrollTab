@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol JXPagerSmoothViewListViewDelegate;
+#import "JXPagerSmoothView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HGListViewController : UIViewController<JXPagerSmoothViewListViewDelegate>
+
+@property (nonatomic, assign) NSInteger type;
 
 @end
 

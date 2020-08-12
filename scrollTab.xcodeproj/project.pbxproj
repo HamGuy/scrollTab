@@ -8,20 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4585D11224E0DA6E0062BB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D11124E0DA6E0062BB09 /* AppDelegate.m */; };
-		4585D11524E0DA6E0062BB09 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D11424E0DA6E0062BB09 /* SceneDelegate.m */; };
 		4585D11824E0DA6E0062BB09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D11724E0DA6E0062BB09 /* ViewController.m */; };
 		4585D11B24E0DA6E0062BB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4585D11924E0DA6E0062BB09 /* Main.storyboard */; };
 		4585D11D24E0DA730062BB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4585D11C24E0DA730062BB09 /* Assets.xcassets */; };
 		4585D12024E0DA730062BB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4585D11E24E0DA730062BB09 /* LaunchScreen.storyboard */; };
 		4585D12324E0DA730062BB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D12224E0DA730062BB09 /* main.m */; };
+		4585D12B24E0DA860062BB09 /* JXPagerSmoothView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585D12A24E0DA860062BB09 /* JXPagerSmoothView.m */; };
+		45D6E84124E155BA006E0B65 /* JXPagerSmoothCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6E84024E155BA006E0B65 /* JXPagerSmoothCollectionView.m */; };
+		45F1999124E0E43C00452650 /* HGListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F1999024E0E43C00452650 /* HGListViewController.m */; };
+		45F1999424E0E74500452650 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F1999324E0E74500452650 /* UIColor+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4585D10D24E0DA6E0062BB09 /* scrollTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4585D11024E0DA6E0062BB09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4585D11124E0DA6E0062BB09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4585D11324E0DA6E0062BB09 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4585D11424E0DA6E0062BB09 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4585D11624E0DA6E0062BB09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4585D11724E0DA6E0062BB09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4585D11A24E0DA6E0062BB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +30,14 @@
 		4585D11F24E0DA730062BB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4585D12124E0DA730062BB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4585D12224E0DA730062BB09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4585D12924E0DA860062BB09 /* JXPagerSmoothView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPagerSmoothView.h; sourceTree = "<group>"; };
+		4585D12A24E0DA860062BB09 /* JXPagerSmoothView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPagerSmoothView.m; sourceTree = "<group>"; };
+		45D6E83F24E155BA006E0B65 /* JXPagerSmoothCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXPagerSmoothCollectionView.h; sourceTree = "<group>"; };
+		45D6E84024E155BA006E0B65 /* JXPagerSmoothCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXPagerSmoothCollectionView.m; sourceTree = "<group>"; };
+		45F1998F24E0E43C00452650 /* HGListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGListViewController.h; sourceTree = "<group>"; };
+		45F1999024E0E43C00452650 /* HGListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGListViewController.m; sourceTree = "<group>"; };
+		45F1999224E0E74500452650 /* UIColor+Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		45F1999324E0E74500452650 /* UIColor+Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +70,9 @@
 		4585D10F24E0DA6E0062BB09 /* scrollTab */ = {
 			isa = PBXGroup;
 			children = (
+				45D6E83E24E15542006E0B65 /* JXSmoothView */,
 				4585D11024E0DA6E0062BB09 /* AppDelegate.h */,
 				4585D11124E0DA6E0062BB09 /* AppDelegate.m */,
-				4585D11324E0DA6E0062BB09 /* SceneDelegate.h */,
-				4585D11424E0DA6E0062BB09 /* SceneDelegate.m */,
 				4585D11624E0DA6E0062BB09 /* ViewController.h */,
 				4585D11724E0DA6E0062BB09 /* ViewController.m */,
 				4585D11924E0DA6E0062BB09 /* Main.storyboard */,
@@ -72,8 +80,23 @@
 				4585D11E24E0DA730062BB09 /* LaunchScreen.storyboard */,
 				4585D12124E0DA730062BB09 /* Info.plist */,
 				4585D12224E0DA730062BB09 /* main.m */,
+				45F1998F24E0E43C00452650 /* HGListViewController.h */,
+				45F1999024E0E43C00452650 /* HGListViewController.m */,
+				45F1999224E0E74500452650 /* UIColor+Random.h */,
+				45F1999324E0E74500452650 /* UIColor+Random.m */,
 			);
 			path = scrollTab;
+			sourceTree = "<group>";
+		};
+		45D6E83E24E15542006E0B65 /* JXSmoothView */ = {
+			isa = PBXGroup;
+			children = (
+				4585D12924E0DA860062BB09 /* JXPagerSmoothView.h */,
+				4585D12A24E0DA860062BB09 /* JXPagerSmoothView.m */,
+				45D6E83F24E155BA006E0B65 /* JXPagerSmoothCollectionView.h */,
+				45D6E84024E155BA006E0B65 /* JXPagerSmoothCollectionView.m */,
+			);
+			path = JXSmoothView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = Wedian;
+				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					4585D10C24E0DA6E0062BB09 = {
 						CreatedOnToolsVersion = 11.6;
@@ -146,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F1999424E0E74500452650 /* UIColor+Random.m in Sources */,
 				4585D11824E0DA6E0062BB09 /* ViewController.m in Sources */,
+				45F1999124E0E43C00452650 /* HGListViewController.m in Sources */,
+				45D6E84124E155BA006E0B65 /* JXPagerSmoothCollectionView.m in Sources */,
 				4585D11224E0DA6E0062BB09 /* AppDelegate.m in Sources */,
 				4585D12324E0DA730062BB09 /* main.m in Sources */,
-				4585D11524E0DA6E0062BB09 /* SceneDelegate.m in Sources */,
+				4585D12B24E0DA860062BB09 /* JXPagerSmoothView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,7 +315,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4FL62462P2;
 				INFOPLIST_FILE = scrollTab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.koudai.com.scrollTab.scrollTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = All_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +334,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4FL62462P2;
 				INFOPLIST_FILE = scrollTab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.koudai.com.scrollTab.scrollTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = All_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

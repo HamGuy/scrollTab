@@ -34,7 +34,7 @@
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    self.pager.bounds = self.view.bounds;
+    self.pager.frame = self.view.bounds;
 }
 
 #pragma mark - JXPagerSmoothViewDataSource
@@ -85,7 +85,7 @@
 
 -(UILabel *)pinHeader {
     if(!_pinHeader){
-        _pinHeader = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 30)];
+        _pinHeader = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 50)];
         _pinHeader.text = @"PIN Header";
         _pinHeader.backgroundColor = UIColor.blueColor;
     }

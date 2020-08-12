@@ -8,6 +8,7 @@
 
 #import "HGListViewController.h"
 #import "JXPagerSmoothView.h"
+#import "JXPagerSmoothCollectionView.h"
 #import "UIColor+Random.h"
 
 static NSString* const kTestCellIdentifier = @"kTestCellIdentifier";
@@ -22,6 +23,19 @@ static NSString* const kTestCellIdentifier = @"kTestCellIdentifier";
 
 @implementation HGListViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+//        JXPagerSmoothCollectionFlowLayout *layout = [[JXPagerSmoothCollectionFlowLayout alloc] init];
+//        layout.pinCategoryHeight = 50;
+//        layout.itemSize = CGSizeMake(SCREEN_WIDTH, 48);
+//        _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+//        _collectionView.dataSource = self;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.collectionView];
@@ -33,9 +47,14 @@ static NSString* const kTestCellIdentifier = @"kTestCellIdentifier";
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.collectionView.bounds = self.view.bounds;
+    
 }
 
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    self.collectionView.frame = self.view.bounds;
+}
 
 #pragma mark - UICollectionVeiwDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -44,7 +63,7 @@ static NSString* const kTestCellIdentifier = @"kTestCellIdentifier";
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kTestCellIdentifier forIndexPath:indexPath];
-    cell.backgroundColor = UIColor.grayColor;
+    cell.backgroundColor = UIColor.random;
     return cell;
 }
 
@@ -64,7 +83,8 @@ static NSString* const kTestCellIdentifier = @"kTestCellIdentifier";
 
 -(UICollectionView *)collectionView {
     if(!_collectionView){
-        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+        JXPagerSmoothCollectionFlowLayout *layout = [[JXPagerSmoothCollectionFlowLayout alloc] init];
+        layout.pinCategoryHeight = 50;
         layout.itemSize = CGSizeMake(SCREEN_WIDTH, 48);
         _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
         _collectionView.dataSource = self;
